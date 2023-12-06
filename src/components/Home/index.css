@@ -1,0 +1,61 @@
+.home-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.home-container-content {
+  padding: 16px;
+}
+
+.home-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.home-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.find-books-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container-content {
+    padding: 24px;
+  }
+
+  .home-heading {
+    font-size: 28px;
+  }
+
+  .home-description {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .find-books-btn {
+    border-radius: 5px;
+    padding: 10px;
+    width: 140px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}

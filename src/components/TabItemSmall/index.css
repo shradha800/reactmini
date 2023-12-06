@@ -1,0 +1,12 @@
+.bookshelves-list-small-btn {
+  border: 1px solid #0284c7;
+  background-color: transparent;
+  border-radius: 12px;
+  outline: none;
+  padding: 5px 12px 5px 12px;
+}
+
+.active-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+}

@@ -1,0 +1,43 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 20px;
+  min-height: 30%;
+}
+
+.icons-container {
+  display: flex;
+}
+
+.footer-icons {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  margin-right: 10px;
+  color: #3d3c3c;
+}
+
+.footer-txt {
+  color: #3d3c3c;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    margin-top: 40px;
+  }
+
+  .footer-icons {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  .footer-txt {
+    font-size: 18px;
+  }
+}

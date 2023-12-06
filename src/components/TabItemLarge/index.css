@@ -1,0 +1,13 @@
+.bookshelves-list-large-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 6px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+}
+
+.active-large {
+  color: #0284c7;
+}

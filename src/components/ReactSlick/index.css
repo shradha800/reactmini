@@ -1,0 +1,76 @@
+.slider-container {
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #7a7a7a;
+}
+
+.slider-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.slider-items-container {
+  padding: 10px;
+}
+
+.loader-container {
+  align-self: center;
+  padding: 20px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-txt {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+}
+
+.try-again-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-container {
+    margin-top: 20px;
+  }
+
+  .slider-heading {
+    font-size: 24px;
+  }
+
+  .slider-items-container {
+    padding: 20px;
+  }
+
+  .failure-txt {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .try-again-btn {
+    font-size: 18px;
+    width: 100px;
+  }
+}
